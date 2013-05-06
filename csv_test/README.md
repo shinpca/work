@@ -1,1 +1,2 @@
-hoge.csvを読み込み、コンソールに内容を出力します。
+read hoge.csv and output console
+================================
