@@ -1,0 +1,22 @@
+DLTK_default=255,255,255
+DLTK_doc=124,215,170
+DLTK_doc.topic=166,240,87
+DLTK_keyword=213,135,30
+DLTK_keyword_return=217,100,100
+DLTK_number=255,255,255
+DLTK_single_line_comment=255,255,255
+DLTK_string=117,193,255
+DLTK_string.eval=85,144,223
+eclipse.preferences.version=1
+hoverModifierMasks=org.eclipse.dltk.ui.BestMatchHover;0;org.eclipse.dltk.ruby.internal.debug.ui.RubyDebugHover;0;org.eclipse.dltk.ui.ProblemHover;0;org.eclipse.dltk.ui.DocumentationHover;0;org.eclipse.dltk.ui.ScriptSourceHover;131072;org.eclipse.dltk.ui.AnnotationHover;0;
+hoverModifiers=org.eclipse.dltk.ui.BestMatchHover;0;org.eclipse.dltk.ruby.internal.debug.ui.RubyDebugHover;\!0;org.eclipse.dltk.ui.ProblemHover;\!0;org.eclipse.dltk.ui.DocumentationHover;\!0;org.eclipse.dltk.ui.ScriptSourceHover;\u30B7\u30D5\u30C8;org.eclipse.dltk.ui.AnnotationHover;\!0;
+org.eclipse.ruby.Templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+ruby.symbols=100,131,247
+sourceHoverBackgroundColor.SystemDefault=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true
+variable=137,249,66
+variable.class=220,76,76
+variable.global=220,66,68
+variable.instance=236,52,52
+variable.pseudo=162,74,133
