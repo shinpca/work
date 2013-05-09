@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="41" version="2.0">
+<workbench progressCount="48" version="2.0">
 <workbenchAdvisor/>
-<window height="820" width="997" x="196" y="43">
+<window height="884" maximized="true" width="1124" x="243" y="0">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -12,12 +12,14 @@
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="jp.sourceforge.mergedoc.pleiades.toolbar" itemType="typeToolBarContribution" x="40" y="30"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="140" y="30"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="110" y="30"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="82" y="30"/>
 <coolItem id="com.aptana.ui.globalActionSet" itemType="typeToolBarContribution" x="188" y="30"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="96" y="30"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="84" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="com.aptana.editor.php" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.html" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.css" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.dltk.ruby.ui.editor.RubyEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -37,13 +39,21 @@
 <part id="2"/>
 <part id="3"/>
 <part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
 <editor id="org.eclipse.dltk.ruby.ui.editor.RubyEditor" name="HelloWorld.rb" partName="HelloWorld.rb" path="/home/shin/work/hello/HelloWorld.rb" title="HelloWorld.rb" tooltip="hello/HelloWorld.rb" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/hello/HelloWorld.rb"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="247" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="23" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.ui.DefaultTextEditor" name="Gemfile.lock" partName="Gemfile.lock" path="/home/shin/work/sampletest/APP_PATH/Gemfile.lock" title="Gemfile.lock" tooltip="sampletest/APP_PATH/Gemfile.lock" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/sampletest/APP_PATH/Gemfile.lock"/>
@@ -51,19 +61,53 @@
 </editor>
 <editor id="com.aptana.editor.js" name="application.js" partName="application.js" path="/home/shin/work/sampletest/APP_PATH/app/assets/javascripts/application.js" title="application.js" tooltip="sampletest/APP_PATH/app/assets/javascripts/application.js" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/sampletest/APP_PATH/app/assets/javascripts/application.js"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="640" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="641" selectionTopPixel="0"/>
 </editor>
 <editor id="com.aptana.editor.css" name="application.css" partName="application.css" path="/home/shin/work/sampletest/APP_PATH/app/assets/stylesheets/application.css" title="application.css" tooltip="sampletest/APP_PATH/app/assets/stylesheets/application.css" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/sampletest/APP_PATH/app/assets/stylesheets/application.css"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.dltk.ruby.ui.editor.RubyEditor" name="test_helper.rb" partName="test_helper.rb" path="/home/shin/work/sampletest/APP_PATH/test/test_helper.rb" title="test_helper.rb" tooltip="sampletest/APP_PATH/test/test_helper.rb" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.dltk.ruby.ui.editor.RubyEditor" name="test_helper.rb" partName="test_helper.rb" path="/home/shin/work/sampletest/APP_PATH/test/test_helper.rb" title="test_helper.rb" tooltip="sampletest/APP_PATH/test/test_helper.rb" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/sampletest/APP_PATH/test/test_helper.rb"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="238" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="453" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.ruby" name="rails" partName="rails" path="/home/shin/work/sampletest/APP_PATH/script/rails" title="rails" tooltip="sampletest/APP_PATH/script/rails" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/sampletest/APP_PATH/script/rails"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="295" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.html" name="422.html" partName="422.html" path="/home/shin/work/sampletest/APP_PATH/public/422.html" title="422.html" tooltip="sampletest/APP_PATH/public/422.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/sampletest/APP_PATH/public/422.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="710" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.dltk.ruby.ui.editor.RubyEditor" name="boot.rb" partName="boot.rb" path="/home/shin/work/sampletest/APP_PATH/config/boot.rb" title="boot.rb" tooltip="sampletest/APP_PATH/config/boot.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/sampletest/APP_PATH/config/boot.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.dltk.ruby.ui.editor.RubyEditor" name="application.rb" partName="application.rb" path="/home/shin/work/sampletest/APP_PATH/config/application.rb" title="application.rb" tooltip="sampletest/APP_PATH/config/application.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/sampletest/APP_PATH/config/application.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="420"/>
+</editor>
+<editor id="org.eclipse.dltk.ruby.ui.editor.RubyEditor" name="routes.rb" partName="routes.rb" path="/home/shin/work/sampletest/APP_PATH/config/routes.rb" title="routes.rb" tooltip="sampletest/APP_PATH/config/routes.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/sampletest/APP_PATH/config/routes.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.dltk.ruby.ui.editor.RubyEditor" name="environment.rb" partName="environment.rb" path="/home/shin/work/sampletest/APP_PATH/config/environment.rb" title="environment.rb" tooltip="sampletest/APP_PATH/config/environment.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/sampletest/APP_PATH/config/environment.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="150" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="com.aptana.editor.ruby" name="Gemfile" partName="Gemfile" path="/home/shin/work/watt/Gemfile" title="Gemfile" tooltip="watt/Gemfile" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/watt/Gemfile"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="469" selectionTopPixel="28"/>
+</editor>
+<editor id="com.aptana.editor.ruby" name="config.ru" partName="config.ru" path="/home/shin/work/watt/config.ru" title="config.ru" tooltip="watt/config.ru" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/watt/config.ru"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
-<view id="com.aptana.samples.ui.SamplesView" partName="サンプル"/>
+<view id="com.aptana.samples.ui.SamplesView" partName="サンプル">
+<viewState/>
+</view>
 <view id="com.aptana.terminal.views.terminal:sampletest" partName="shin@shin-VirtualBox: ~/work/sampletest">
 <viewState>
 <title>shin@shin-VirtualBox: ~/work/sampletest</title>
@@ -71,7 +115,7 @@
 </viewState>
 </view>
 <view id="com.aptana.explorer.view" partName="App Explorer">
-<viewState CommonNavigator.LINKING_ENABLED="0" GitChangedFilesFilterEnabled="" activeProject="hello">
+<viewState CommonNavigator.LINKING_ENABLED="0" GitChangedFilesFilterEnabled="" activeProject="watt">
 <project name="csvopen">
 <selection>
 <element path="/sampletest"/>
@@ -83,11 +127,13 @@
 </selection>
 </project>
 <project name="sampletest">
-<expanded>
-<element path="/sampletest/APP_PATH"/>
-</expanded>
 <selection>
-<element path="/hello"/>
+<element path="/sampletest/APP_PATH"/>
+</selection>
+</project>
+<project name="watt">
+<selection>
+<element path="/watt/Rakefile"/>
 </selection>
 </project>
 </viewState>
@@ -102,7 +148,9 @@
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="プロジェクト・エクスプローラー">
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
-<view id="com.aptana.snippets.ui.views.SnippetsView" partName="スニペット"/>
+<view id="com.aptana.snippets.ui.views.SnippetsView" partName="スニペット">
+<viewState/>
+</view>
 <view id="com.aptana.terminal.views.terminal:sample" partName="shin@shin-VirtualBox: ~/work/csvopen">
 <viewState>
 <title>shin@shin-VirtualBox: ~/work/csvopen</title>
@@ -140,12 +188,18 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
 </view>
+<view id="com.aptana.terminal.views.terminal:watt" partName="shin@shin-VirtualBox: ~/work/watt">
+<viewState>
+<title>shin@shin-VirtualBox: ~/work/watt</title>
+<workingDirectory>/home/shin/work/watt</workingDirectory>
+</viewState>
+</view>
 <view id="org.eclipse.ui.console.ConsoleView" partName="コンソール">
 <viewState/>
 </view>
 <view id="org.eclipse.dltk.ruby.ui.RubyDocumentationView" partName="Ruby ドキュメンテーション"/>
 </views>
-<perspectives activePart="org.eclipse.dltk.ruby.ui.editor.RubyEditor" activePerspective="com.aptana.ui.WebPerspective">
+<perspectives activePart="com.aptana.terminal.views.terminal:watt" activePerspective="com.aptana.ui.WebPerspective">
 <perspective editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.aptana.ui.internal.WebPerspectiveFactory" id="com.aptana.ui.WebPerspective" label="Web"/>
 <alwaysOnActionSet id="com.aptana.browser.actionSet"/>
@@ -191,6 +245,7 @@
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="com.aptana.terminal.views.terminal:sample"/>
 <view id="com.aptana.terminal.views.terminal:sampletest"/>
+<view id="com.aptana.terminal.views.terminal:watt"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="com.aptana.samples.ui.SamplesView"/>
 <view id="com.aptana.snippets.ui.views.SnippetsView"/>
@@ -198,7 +253,7 @@
 <layout>
 <mainWindow>
 <info folder="true" part="left">
-<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<folder activePageID="com.aptana.explorer.view" appearance="2" expanded="2">
 <page content="com.aptana.explorer.view" label="App Explorer"/>
 <page content="org.eclipse.ui.navigator.ProjectExplorer" label="プロジェクト・エクスプローラー"/>
 <page content="com.aptana.ui.io.remoteview" label="LabelNotFound"/>
@@ -217,20 +272,23 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.19983137" ratioLeft="237" ratioRight="949" relationship="2" relative="left"/>
 <info folder="true" part="terminalArea" ratio="0.7491409" ratioLeft="654" ratioRight="219" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="com.aptana.terminal.views.terminal:sampletest" appearance="2" expanded="2">
+<folder activePageID="com.aptana.terminal.views.terminal:watt" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="コンソール"/>
 <page content="org.eclipse.ui.views.ProblemView" label="問題"/>
 <page content="com.aptana.terminal.views.terminal:sample" label="shin@shin-VirtualBox: ~/work/csvopen"/>
 <page content="com.aptana.terminal.views.terminal:sampletest" label="shin@shin-VirtualBox: ~/work/sampletest"/>
+<page content="com.aptana.terminal.views.terminal:watt" label="shin@shin-VirtualBox: ~/work/watt"/>
 <page content="com.aptana.terminal.views.terminal" label="LabelNotFound"/>
 <page content="org.eclipse.pde.runtime.LogView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
 <page content="com.aptana.terminal.views.terminal:myapp" label="LabelNotFound"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.internal.presentations.classic.WorkbenchPresentationFactoryClassic">
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
+<part id="4"/>
 </presentation>
 </folder>
 </info>
@@ -349,6 +407,17 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/sampletest/APP_PATH/Gemfile.lock"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" path="/sampletest/APP_PATH/app/assets/stylesheets/application.css"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.ruby.ui.editor.RubyEditor" path="/sampletest/APP_PATH/test/test_helper.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/sampletest/APP_PATH/script/rails"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/sampletest/APP_PATH/public/422.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.ruby.ui.editor.RubyEditor" path="/sampletest/APP_PATH/config/boot.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.ruby.ui.editor.RubyEditor" path="/sampletest/APP_PATH/config/application.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.ruby.ui.editor.RubyEditor" path="/sampletest/APP_PATH/config/routes.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.ruby.ui.editor.RubyEditor" path="/sampletest/APP_PATH/config/environment.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.ruby.ui.editor.RubyEditor" path="/hello/HelloWorld.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/sampletest/APP_PATH/app/assets/javascripts/application.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/watt/Gemfile"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/watt/config.ru"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" path="/watt/index.php"/>
 </editors>
 <item historyLabel="Gemfile" index="0">
 <position info="not_deleted" x="321" y="0"/>
@@ -404,8 +473,92 @@
 <item historyLabel="HelloWorld.rb" index="2">
 <position info="not_deleted" x="247" y="0"/>
 </item>
-<item active="true" historyLabel="test_helper.rb" index="9">
+<item historyLabel="test_helper.rb" index="9">
 <position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="rails" index="10">
+<position info="not_deleted" x="295" y="0"/>
+</item>
+<item historyLabel="422.html" index="11">
+<position info="not_deleted" x="710" y="0"/>
+</item>
+<item historyLabel="test_helper.rb" index="9">
+<position info="not_deleted" x="388" y="0"/>
+</item>
+<item historyLabel="422.html" index="11">
+<position info="not_deleted" x="710" y="0"/>
+</item>
+<item historyLabel="test_helper.rb" index="9">
+<position info="not_deleted" x="255" y="0"/>
+</item>
+<item historyLabel="boot.rb" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="application.rb" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="routes.rb" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="environment.rb" index="15">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="HelloWorld.rb" index="16">
+<position info="not_deleted" x="23" y="0"/>
+</item>
+<item historyLabel="test_helper.rb" index="9">
+<position info="not_deleted" x="255" y="0"/>
+</item>
+<item historyLabel="HelloWorld.rb" index="16">
+<position info="not_deleted" x="23" y="0"/>
+</item>
+<item historyLabel="test_helper.rb" index="9">
+<position info="not_deleted" x="453" y="0"/>
+</item>
+<item historyLabel="application.rb" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="routes.rb" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="environment.rb" index="15">
+<position info="not_deleted" x="150" y="0"/>
+</item>
+<item historyLabel="HelloWorld.rb" index="16">
+<position info="not_deleted" x="23" y="0"/>
+</item>
+<item historyLabel="application.js" index="17">
+<position info="not_deleted" x="641" y="0"/>
+</item>
+<item historyLabel="Gemfile" index="18">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Gemfile" index="18">
+<position info="not_deleted" x="551" y="0"/>
+</item>
+<item historyLabel="Gemfile" index="18">
+<position info="not_deleted" x="271" y="0"/>
+</item>
+<item historyLabel="environment.rb" index="15">
+<position info="not_deleted" x="150" y="0"/>
+</item>
+<item historyLabel="Gemfile" index="18">
+<position info="not_deleted" x="271" y="0"/>
+</item>
+<item historyLabel="Gemfile" index="18">
+<position info="not_deleted" x="226" y="0"/>
+</item>
+<item historyLabel="config.ru" index="19">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Gemfile" index="18">
+<position info="not_deleted" x="469" y="0"/>
+</item>
+<item historyLabel="index.php" index="20">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="Gemfile" index="18">
+<position info="not_deleted" x="469" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -424,6 +577,33 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" name="index.php" tooltip="watt/index.php">
+<persistable path="/watt/index.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="config.ru" tooltip="watt/config.ru">
+<persistable path="/watt/config.ru"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="Gemfile" tooltip="watt/Gemfile">
+<persistable path="/watt/Gemfile"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.ruby.ui.editor.RubyEditor" name="environment.rb" tooltip="sampletest/APP_PATH/config/environment.rb">
+<persistable path="/sampletest/APP_PATH/config/environment.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.ruby.ui.editor.RubyEditor" name="routes.rb" tooltip="sampletest/APP_PATH/config/routes.rb">
+<persistable path="/sampletest/APP_PATH/config/routes.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.ruby.ui.editor.RubyEditor" name="application.rb" tooltip="sampletest/APP_PATH/config/application.rb">
+<persistable path="/sampletest/APP_PATH/config/application.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.ruby.ui.editor.RubyEditor" name="boot.rb" tooltip="sampletest/APP_PATH/config/boot.rb">
+<persistable path="/sampletest/APP_PATH/config/boot.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="422.html" tooltip="sampletest/APP_PATH/public/422.html">
+<persistable path="/sampletest/APP_PATH/public/422.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="rails" tooltip="sampletest/APP_PATH/script/rails">
+<persistable path="/sampletest/APP_PATH/script/rails"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.ruby.ui.editor.RubyEditor" name="test_helper.rb" tooltip="sampletest/APP_PATH/test/test_helper.rb">
 <persistable path="/sampletest/APP_PATH/test/test_helper.rb"/>
 </file>

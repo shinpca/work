@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="ASCII"?>
 <launch:InterpreterInfo xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:launch="http://www.eclipse.org/dltk/launching.ecore" environment="org.eclipse.dltk.core.environment.localEnvironment" location="/home/shin/.rbenv/versions/2.0.0-rc2/bin/ruby">
-  <contents xsi:type="launch:InterpreterGeneratedContent" key="scripts/builtin.rb" interpreterLastModified="2013-04-24T16:12:04.000+0900" fetchedAt="2013-05-07T19:31:43.889+0900" lastModified="2013-05-07T19:31:43.889+0900"/>
+  <contents xsi:type="launch:InterpreterGeneratedContent" key="scripts/builtin.rb" interpreterLastModified="2013-04-24T16:12:04.000+0900" fetchedAt="2013-05-09T18:21:57.520+0900" lastModified="2013-05-07T19:31:43.889+0900"/>
 </launch:InterpreterInfo>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<servers>
+<server host="0.0.0.0" port="3000" type="org.radrails.rails.railsServer">
+<name>sample</name>
+</server>
+<server host="0.0.0.0" port="3000" type="org.radrails.rails.railsServer">
+<name>myapp</name>
+</server>
+<server host="0.0.0.0" port="3000" type="org.radrails.rails.railsServer">
+<name>myapp</name>
+</server>
+<server host="0.0.0.0" port="3000" project="/home/shin/work/sampletest" type="org.radrails.rails.railsServer">
+<name>sampletest</name>
+</server>
+<server host="0.0.0.0" port="3000" project="/home/shin/work/watt" type="org.radrails.rails.railsServer">
+<name>watt</name>
+</server>
+</servers>
