@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="48" version="2.0">
+<workbench progressCount="47" version="2.0">
 <workbenchAdvisor/>
 <window height="884" maximized="true" width="1124" x="243" y="0">
 <fastViewData fastViewLocation="1024"/>
@@ -97,7 +97,7 @@
 </editor>
 <editor activePart="true" focus="true" id="com.aptana.editor.ruby" name="Gemfile" partName="Gemfile" path="/home/shin/work/watt/Gemfile" title="Gemfile" tooltip="watt/Gemfile" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/watt/Gemfile"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="469" selectionTopPixel="28"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 <editor id="com.aptana.editor.ruby" name="config.ru" partName="config.ru" path="/home/shin/work/watt/config.ru" title="config.ru" tooltip="watt/config.ru" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/watt/config.ru"/>
@@ -557,8 +557,11 @@
 <item historyLabel="index.php" index="20">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="Gemfile" index="18">
+<item historyLabel="Gemfile" index="18">
 <position info="not_deleted" x="469" y="0"/>
+</item>
+<item active="true" historyLabel="Gemfile" index="18">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Watt</title>
+</head>
+
+<body>
+
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">
+
+// Visualization API と折れ線グラフ用のパッケージのロード
+google.load("visualization", "1", {packages:["corechart"]});
+
+// Google Visualization API ロード時のコールバック関数の設定
+google.setOnLoadCallback(drawChart);
+
+// グラフ作成用のコールバック関数
+function drawChart() {
+
+// データテーブルの作成
+var data = google.visualization.arrayToDataTable([
+              ['年度','売上','費用'],
+              ['2004',1000, 600],
+              ['2005',1170, 460],
+              ['2006',660, 1120],
+              ['2007',1040, 2000]
+              ])
+
+// グラフのオプションを設定
+var options = {
+title: '会社業績'
+};
+
+// LineChart のオブジェクトの作成
+var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+// データテーブルとオプションを渡して、グラフを描画
+chart.draw(data, options);
+
+}
+</script>
+
+
+</body>
+</html>

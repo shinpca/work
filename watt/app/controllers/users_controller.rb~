@@ -1,4 +1,15 @@
+# -*- coding: utf-8 -*-
 class UsersController < ApplicationController
-  def graph
-  end
+  require 'fastercsv'
+
+  def hoge
+gon.hoge = [
+['年度', '売上', '費用'],
+['2004', 1000, 400],
+['2005', 1170, 460],
+['2006', 660, 1120],
+['2007', 1030, 2000]
+]
+    end
+
 end
